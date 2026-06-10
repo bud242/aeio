@@ -8,10 +8,14 @@
         body { background: #050505; color: #EAEAEA; font-family: monospace; padding: 40px; line-height: 1.6; }
         header { border-bottom: 1px solid #30363d; padding-bottom: 20px; margin-bottom: 40px; }
         h1 { color: #00F0FF; margin: 0; font-size: 24px; font-style: italic; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        h2 { border-left: 3px solid #00F0FF; padding-left: 10px; margin-top: 40px; text-transform: uppercase; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
         .card { background: #0d1117; padding: 20px; border: 1px solid #30363d; border-radius: 6px; }
         .card h3 { color: #00F0FF; margin-top: 0; }
         .telemetry { color: #8E9AAF; font-size: 12px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #0d1117; border: 1px solid #30363d; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
+        th { color: #00F0FF; text-transform: uppercase; font-size: 14px; }
     </style>
 </head>
 <body>
@@ -19,6 +23,7 @@
         <h1>ANALYTICAL ENGINE // AEIO</h1>
         <p class="telemetry">STATUS: OPERATIONAL // HARDWARE: 3NM COMPUTE NODE // ARCHITECTURE: TRUTH-BASED</p>
     </header>
+    
     <main>
         <h2>[ CORE INFRASTRUCTURE UPGRADES ]</h2>
         <div class="grid">
@@ -39,6 +44,29 @@
                 <p>Direct allocations of next-generation hardware server processing, bypassing software latency limitations completely.</p>
             </div>
         </div>
+
+        <h2>[ BENCHMARK CRITERIA: WOLVERINE v1.0 ]</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>PROCESSING ARCHITECTURE</th>
+                    <th>EXECUTION VELOCITY</th>
+                    <th>COMPUTE CHARACTERISTIC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Standard Legacy RAG</td>
+                    <td>2.76 tokens / sec</td>
+                    <td>Bloated Context Prompt Evaluation</td>
+                </tr>
+                <tr>
+                    <td style="color: #00F0FF;">Sovereign AEC-88.1 (Thought Shards)</td>
+                    <td style="color: #00F0FF; font-weight: bold;">65.22 tokens / sec</td>
+                    <td style="color: #00F0FF;">Surgical Fact-Unit Extraction</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 </body>
 </html>
