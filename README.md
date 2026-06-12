@@ -1,6 +1,8 @@
 Analytical Engine Lab
 AI (Artificial Intelligence) Architecture, Engineering, Optimization
 
+We made AI Actual Intelligence
+
 We don't just use AI we optimize AI to be a tool for you business using you current infrastructure. if you have something in mind let us know maybe we are just who you are looking for. 
 
 Architecture Stack
